@@ -5,7 +5,7 @@
 <body>
 	<div id="app">
     <!--<pre>{{charts}}</pre>-->
-
+    <h2>Brenda's Charts here</h2>
     <h3> Charts based on
 			<a href="https://github.com/ankane/vue-chartkick">vue-chartkick</a>
 		</h3>
@@ -64,7 +64,7 @@ const router = new VueRouter({
   routes // short for `routes: routes`
 })
 		var db = firebase.initializeApp({
-        databaseURL: 'https://awesome-56c60.firebaseio.com'
+        databaseURL: 'https://orange-cake.firebaseio.com' //https://awesome-56c60.firebaseio.com'-->
       }).database()
       var chartsRef = db.ref('charts')
       new Vue({
