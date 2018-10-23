@@ -2,12 +2,12 @@ import Vue from "vue";
 import App from "./components/App.js";
 
 describe("Vue component tests", () => {
-  it("An example test should pass.", () => {
+  it("Put something meaningful.", () => {
     expect(2).toEqual(2);
   });
   it("The component should have a title property.", () => {
     const defaultData = App.data();
-    // expect(defaultData.title).toBe("BT3103 Week 10");
+    expect(defaultData.title).toBe("BT3103 Week 10");
   });
 
   it("The component should have an updateCurrentChart function.", () => {
